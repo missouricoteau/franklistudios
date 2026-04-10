@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Frankli Studios — Independent film production and professional screenwriting services." />
+  <title>Frankli Studios</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======= NAVIGATION ======= -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo">FRANKLI<span>STUDIOS</span></a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#films" class="nav__link">Films</a></li>
+        <li><a href="#contact" class="nav__link cta">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <p class="hero__eyebrow">Independent Film &amp; Screenwriting</p>
+        <h1 class="hero__title">Stories That<br /><span>Move People.</span></h1>
+        <p class="hero__subtitle">
+          Frankli Studios crafts cinematic narratives that challenge, inspire, and endure.
+          From the writer's room to the big screen.
+        </p>
+        <div class="hero__actions">
+          <a href="#films" class="btn btn--primary">Our Films</a>
+          <a href="#services" class="btn btn--outline">Our Services</a>
+        </div>
+      </div>
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__visual" aria-hidden="true">
+          <div class="film-strip">
+            <div class="film-strip__frame"></div>
+            <div class="film-strip__frame"></div>
+            <div class="film-strip__frame"></div>
+            <div class="film-strip__frame"></div>
+            <div class="film-strip__frame"></div>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="section__label">Who We Are</span>
+          <h2 class="section__title">A Studio Built on Authentic Storytelling</h2>
+          <p>
+            Founded by filmmakers who believe the most powerful stories come from the margins,
+            Frankli Studios is an independent production company dedicated to amplifying
+            underrepresented voices and bold cinematic visions.
+          </p>
+          <p>
+            We partner with writers, directors, and creators at every stage — from developing
+            a screenplay idea to delivering a finished film — combining artistic integrity
+            with professional craft.
+          </p>
+          <ul class="about__stats" role="list">
+            <li class="stat">
+              <strong class="stat__number" data-target="12">0</strong>
+              <span class="stat__label">Films Produced</span>
+            </li>
+            <li class="stat">
+              <strong class="stat__number" data-target="30">0</strong>
+              <span class="stat__label">Festival Selections</span>
+            </li>
+            <li class="stat">
+              <strong class="stat__number" data-target="8">0</strong>
+              <span class="stat__label">Awards Won</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SERVICES ======= -->
+    <section class="services section section--dark" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">What We Do</span>
+          <h2 class="section__title">Our Services</h2>
+          <p class="section__intro">
+            Whether you need a full production partner or an experienced hand with your script,
+            we bring passion and precision to every project.
+          </p>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="4" y="8" width="40" height="32" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="24" r="7" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="24" r="2.5" fill="currentColor"/>
+                <path d="M4 16h40M4 32h40" stroke="currentColor" stroke-width="2.5"/>
+                <rect x="8" y="11" width="4" height="5" rx="1" fill="currentColor"/>
+                <rect x="36" y="11" width="4" height="5" rx="1" fill="currentColor"/>
+                <rect x="8" y="32" width="4" height="5" rx="1" fill="currentColor"/>
+                <rect x="36" y="32" width="4" height="5" rx="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Independent Film Production</h3>
+            <p class="service-card__body">
+              End-to-end production for feature films, shorts, and documentaries.
+              We handle pre-production planning, crew assembly, on-set direction,
+              post-production, and distribution strategy — so your vision reaches the audience it deserves.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Feature &amp; short film production</li>
+              <li>Documentary filmmaking</li>
+              <li>Pre-production &amp; budgeting</li>
+              <li>Post-production &amp; color grading</li>
+              <li>Festival strategy &amp; distribution</li>
+            </ul>
+          </article>
+
+          <article class="service-card service-card--accent">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M12 8h24a2 2 0 0 1 2 2v28a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M16 18h16M16 23h16M16 28h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M32 4v8M16 4v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Screenwriting Services</h3>
+            <p class="service-card__body">
+              From first draft to polished shooting script, our experienced writers and
+              story consultants work alongside you to develop compelling characters,
+              tight structure, and dialogue that crackles on the page.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Original screenplay development</li>
+              <li>Script coverage &amp; analysis</li>
+              <li>Story consulting &amp; structure</li>
+              <li>Dialogue polishing &amp; rewrites</li>
+              <li>Pitching &amp; treatment writing</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M20 18l10 6-10 6V18z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Creative Consultation</h3>
+            <p class="service-card__body">
+              Not sure where your project stands? Our creative consultants provide honest,
+              in-depth feedback to help filmmakers and writers unlock their project's full
+              potential — from concept to final cut.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Project development sessions</li>
+              <li>Director &amp; writer workshops</li>
+              <li>Pitch deck preparation</li>
+              <li>Financing strategy guidance</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= FILMS ======= -->
+    <section class="films section" id="films">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Selected Work</span>
+          <h2 class="section__title">Our Films</h2>
+          <p class="section__intro">
+            A selection of the stories we've brought to life — each one a testament to
+            independent vision and collaborative craft.
+          </p>
+        </div>
+        <div class="films__grid">
+
+          <article class="film-card">
+            <div class="film-card__poster film-card__poster--1" role="img" aria-label="Still from Hollow Ground"></div>
+            <div class="film-card__info">
+              <span class="film-card__genre">Drama</span>
+              <h3 class="film-card__title">Hollow Ground</h3>
+              <p class="film-card__desc">A grieving father returns to his rural hometown and uncovers a decades-old secret that reshapes his understanding of family and sacrifice.</p>
+              <span class="film-card__year">2023 · Feature Film</span>
+            </div>
+          </article>
+
+          <article class="film-card">
+            <div class="film-card__poster film-card__poster--2" role="img" aria-label="Still from The Long Silence"></div>
+            <div class="film-card__info">
+              <span class="film-card__genre">Documentary</span>
+              <h3 class="film-card__title">The Long Silence</h3>
+              <p class="film-card__desc">An intimate documentary following three aspiring screenwriters as they navigate the unforgiving corridors of the film industry.</p>
+              <span class="film-card__year">2022 · Documentary</span>
+            </div>
+          </article>
+
+          <article class="film-card">
+            <div class="film-card__poster film-card__poster--3" role="img" aria-label="Still from Between Hours"></div>
+            <div class="film-card__info">
+              <span class="film-card__genre">Thriller</span>
+              <h3 class="film-card__title">Between Hours</h3>
+              <p class="film-card__desc">Two strangers stranded at a remote motel begin to question whether their meeting is truly coincidental — or carefully orchestrated.</p>
+              <span class="film-card__year">2021 · Short Film</span>
+            </div>
+          </article>
+
+          <article class="film-card">
+            <div class="film-card__poster film-card__poster--4" role="img" aria-label="Still from Meridian"></div>
+            <div class="film-card__info">
+              <span class="film-card__genre">Coming-of-Age</span>
+              <h3 class="film-card__title">Meridian</h3>
+              <p class="film-card__desc">Set against a summer of upheaval, a teenager discovers a shared screenplay written by her late mother — and sets out to finish it.</p>
+              <span class="film-card__year">2020 · Feature Film</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= PROCESS ======= -->
+    <section class="process section section--dark" id="process">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">How We Work</span>
+          <h2 class="section__title">Our Process</h2>
+        </div>
+        <ol class="process__steps" role="list">
+          <li class="process__step">
+            <span class="process__step-num">01</span>
+            <h3 class="process__step-title">Discovery</h3>
+            <p>We begin every engagement with a deep dive into your story idea, goals, and creative vision.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__step-num">02</span>
+            <h3 class="process__step-title">Development</h3>
+            <p>Scripts are written, refined, and stress-tested. Projects are greenlit only when the story is truly ready.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__step-num">03</span>
+            <h3 class="process__step-title">Production</h3>
+            <p>From casting to principal photography, our experienced crew turns pages into powerful images.</p>
+          </li>
+          <li class="process__step">
+            <span class="process__step-num">04</span>
+            <h3 class="process__step-title">Delivery</h3>
+            <p>Post-production, sound mix, and color — then on to festivals, streaming, and audiences worldwide.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section class="contact section" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="section__label">Get in Touch</span>
+          <h2 class="section__title">Let's Make Something Together</h2>
+          <p>
+            Have a script you're ready to develop? A film project seeking a production partner?
+            Or just want to learn more about what we do? We'd love to hear from you.
+          </p>
+          <ul class="contact__details" role="list">
+            <li>
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 8l9 6 9-6M5 6h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+              <a href="mailto:hello@franklistudios.com">hello@franklistudios.com</a>
+            </li>
+            <li>
+              <svg class="contact__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <span>Kansas City, Missouri</span>
+            </li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">I'm interested in…</label>
+            <select id="service" name="service">
+              <option value="" disabled selected>Select a service</option>
+              <option value="film-production">Film Production</option>
+              <option value="screenwriting">Screenwriting Services</option>
+              <option value="consultation">Creative Consultation</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form-success" id="form-success" aria-live="polite" hidden>
+            Thanks! We'll be in touch shortly.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="footer__logo">FRANKLI<span>STUDIOS</span></a>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#films">Films</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="footer-year"></span> Frankli Studios. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
