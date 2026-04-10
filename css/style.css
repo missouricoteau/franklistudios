@@ -164,13 +164,16 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .nav__logo {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--color-white);
-  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 0;
 }
-.nav__logo span { color: var(--color-accent); }
+
+.nav__logo-image {
+  width: clamp(9rem, 16vw, 13rem);
+  height: auto;
+}
 
 .nav__menu {
   display: flex;
@@ -820,6 +823,10 @@ button { font-family: inherit; cursor: pointer; }
 
 @media (max-width: 700px) {
   .nav__toggle { display: flex; }
+
+  .nav__logo-image {
+    width: clamp(7.5rem, 30vw, 10rem);
+  }
 
   .nav__menu {
     position: fixed;
