@@ -171,8 +171,9 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .nav__logo-image {
-  width: clamp(9rem, 16vw, 13rem);
-  height: auto;
+  display: block;
+  width: auto;
+  height: clamp(2.75rem, 4vw, 3.75rem);
 }
 
 .nav__menu {
@@ -825,7 +826,7 @@ button { font-family: inherit; cursor: pointer; }
   .nav__toggle { display: flex; }
 
   .nav__logo-image {
-    width: clamp(7.5rem, 30vw, 10rem);
+    height: clamp(2.2rem, 7vw, 2.8rem);
   }
 
   .nav__menu {
